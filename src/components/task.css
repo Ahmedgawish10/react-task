@@ -1,0 +1,29 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    list-style: none;
+  }
+  
+  .dragging {
+    background-color: lightblue;
+  }
+  
+  .items li:hover {
+    background-color: #e0e0e0;
+  }
+  
